@@ -3,7 +3,7 @@ H = list(map(int, input().split()))
 
 param = False
 
-for i in range(N):
+for i in range(N-1):
     if H[i] > H[0]:
         param = True
         print(i+1)
