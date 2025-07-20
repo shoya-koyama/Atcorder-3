@@ -14,7 +14,7 @@ for i in range(len(s)):
 
 print(result)
 
-# ミス
+# 以下はミス
 s = input()
 count = 0
 lst = ""
