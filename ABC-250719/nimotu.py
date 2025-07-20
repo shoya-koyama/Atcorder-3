@@ -29,7 +29,7 @@ for i in range(len(s)):
         else:
             pass
     else:
-        # 余計な1文字処理をしたあとでしか保存されない。
+        # ＃の後、余計な1文字処理をしたあとでしか保存されない。
         # つまり最後のペアが記録されない。
         result.append(lst)
         lst = ""
